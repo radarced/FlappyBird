@@ -4,5 +4,5 @@ body {
     text-align : center; /* aligns canvas to center ig */
 }
 #Board {
-    background : url(flappybirdbg.png);
+    background : url(imgs/flappybirdbg.png);
 }
