@@ -3,7 +3,6 @@ let Board;
 let BoardWidth = 360;
 let BoardHeight = 640;
 let context;
-let ImageLoaded = false;
 
 // Bird
 
@@ -62,7 +61,6 @@ window.onload = function(){
     BirdImg.src = "./imgs/flappybird.png";
     BirdImg.onload = function(){
         // Draw it here
-        ImageLoaded = true;
         context.drawImage(BirdImg,Bird.x,Bird.y,Bird.width,Bird.height);
     }
 
@@ -89,7 +87,7 @@ function update(){
     requestAnimationFrame(update);
     
     // return when gameover
-    if (gameOver || ImageLoaded){
+    if (gameOver){
         return ;
     }
 
