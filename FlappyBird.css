@@ -1,0 +1,8 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 100vh;
+    text-align : center; /* aligns canvas to center ig */
+}
+#Board {
+    background : url(flappybirdbg.png);
+}
