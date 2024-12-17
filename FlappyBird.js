@@ -58,7 +58,7 @@ window.onload = function(){
    //Draw Bird
 
     BirdImg = new Image(); // to let canvas know its an img
-    BirdImg.src = "/imgs/flappybird.png";
+    BirdImg.src = "imgs/flappybird.png";
     BirdImg.onload = function(){
         // Draw it here
         context.drawImage(BirdImg,Bird.x,Bird.y,Bird.width,Bird.height);
@@ -66,10 +66,10 @@ window.onload = function(){
 
   
     TopPipeImg = new Image();
-    TopPipeImg.src = "/imgs/toppipe.png";
+    TopPipeImg.src = "imgs/toppipe.png";
 
     BottomPipeImg = new Image();
-    BottomPipeImg.src = "/imgs/bottompipe.png";
+    BottomPipeImg.src = "imgs/bottompipe.png";
 
 
 
